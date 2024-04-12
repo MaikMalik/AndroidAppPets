@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/newsFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Veterinario" />
+    <item
+        android:id="@+id/mapsFragment"
+        android:icon="@drawable/ic_location"
+        android:title="Peluquería" />
+    <item
+        android:id="@+id/addPetFragment"
+        android:icon="@drawable/ic_add"
+        android:title="Tienda" />
+</menu>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1033931326303",
+    "project_id": "curepaws-1bff6",
+    "storage_bucket": "curepaws-1bff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033931326303:android:b3784418ab5bc93aeeacea",
+        "android_client_info": {
+          "package_name": "com.dam2.app_pet2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033931326303-4peb8q7kgikq26luov10b11t1sd8rv8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD73LowPodI0IJ5LcGq9_pu9I6ioZJhlZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033931326303-4peb8q7kgikq26luov10b11t1sd8rv8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033931326303:android:8cd6b61c25cf9919eeacea",
+        "android_client_info": {
+          "package_name": "com.dam2.curepaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033931326303-4peb8q7kgikq26luov10b11t1sd8rv8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD73LowPodI0IJ5LcGq9_pu9I6ioZJhlZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033931326303-4peb8q7kgikq26luov10b11t1sd8rv8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

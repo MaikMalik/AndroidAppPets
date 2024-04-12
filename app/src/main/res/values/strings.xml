@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">App_Pet2</string>
+    <string name="login_button_loggin">Iniciar sesión</string>
+    <string name="introduction_button_signin">Crear cuenta</string>
+    <string name="login_subtitle">Encuentra los mejores servicios para tu mascota</string>
+    <string name="login_hint_user">Correo</string>
+    <string name="login_hint_password">Contraseña</string>
+    <string name="forgot_password">¿Haz olvidado tu contraseña?</string>
+    <string name="signin_form_real_name">Nombre completo</string>
+    <string name="signin_form_email">Correo electrónico</string>
+    <string name="signin_form_password">Contraseña</string>
+    <string name="signin_form_repeat_password">Repite contraseña</string>
+    <string name="recovery_pass">Enviar</string>
+    <string name="email_recover">Email para recuperar tu contraseña</string>
+
+    <string name="item_petLabel">Seleccione una opción</string>
+
+    <string name="recoverpass_subtitle">¿Haz perdido tu contraseña?\nTe ayudamos a recuperarla</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_petname">¿Cómo se llama?</string>
+    <string name="add_datapicker">Selecciona fecha de nacimiento</string>
+    <string name="add_especie">¿Qué tipo de animal es?</string>
+    <string name="add_raza">¿Cúal es su raza?</string>
+    <string name="add_sobretumascota">Añade una descripción de tu mascota</string>
+    <string name="nombre_usuario">Nombre_usuario</string>
+    <string name="correo_usuario">correo_usuario</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="borrar_cuenta">Borrar cuenta</string>
+
+</resources>

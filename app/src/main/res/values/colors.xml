@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#150458</color>
+    <color name="secondary_light">#333131</color>
+    <color name="error">#e84545</color>
+    <color name="error_dark">#d32f2f</color>
+
+    <color name="sign_field">#E4DC90</color>
+    <color name="secondary">#FF000000</color>
+
+    <color name="botton_nav_background">#d9a25e</color>
+    <color name="botton_nav_item">#8C706D</color>
+    <color name="botton_nav_selectedi_tem">#220006</color>
+    <color name="fragment_bg_color">#FDF8F4</color>
+
+    <color name="selected">#F1E15A</color>
+    <color name="noselected">#f4e3d7</color>
+
+    <color name="colorCardBackground">#f4e3d7</color>
+
+    <color name="primaryColor">#d32f2f</color>
+    <color name="itemTextColor">#707070</color>
+</resources>

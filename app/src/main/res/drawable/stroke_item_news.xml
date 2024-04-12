@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#f4e3d7" /> <!-- Color de fondo del CardView -->
+    <stroke
+        android:width="4dp" android:color="#F1D87E" /><!-- Color del borde -->
+    <corners android:radius="8dp" /> <!-- Radio de los bordes del CardView -->
+</shape>

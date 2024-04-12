@@ -1,0 +1,164 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.App_Pet2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/botton_nav_selectedi_tem</item>
+    </style>
+
+    <style name="Theme.App_Pet2" parent="Base.Theme.App_Pet2" />
+
+
+
+    <style name="CaptionText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/telescope</item>
+    </style>
+
+    <style name="PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">25sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:gravity">center</item>
+        <item name="backgroundTint">@color/sign_field</item>
+        <item name="android:fontFamily">@font/telescope</item>
+    </style>
+
+    <style name="FormEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/secondary_light</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="singleLine">true</item>
+        <item name="maxLines">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textColorHint">@color/secondary_light</item>
+        <item name="android:fontFamily">@font/telescope</item>
+    </style>
+
+    <style name="FormTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:gravity">center_vertical</item>
+        <item name="errorEnabled">true</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textColorHint">@color/secondary</item>
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidth">3dp</item>
+        <item name="errorTextColor">@color/error</item>
+        <item name="hintTextColor">@color/primary</item>
+    </style>
+
+    <style name="TertiaryButton" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/telescope</item>
+        <item name="android:selectableItemBackground">@drawable/stroke_tv</item>
+    </style>
+    <style name="ActionBar_News" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">20sp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/telescope</item>
+        <item name="android:background">@color/botton_nav_background</item>
+    </style>
+
+    <style name="popup_ActionBar_News" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/telescope</item>
+        <item name="android:background">@color/botton_nav_background</item>
+    </style>
+
+
+    <style name="FormEditText2" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/secondary_light</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="singleLine">true</item>
+        <item name="maxLines">1</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textColorHint">@color/secondary_light</item>
+        <item name="android:fontFamily">@font/telescope</item>
+    </style>
+
+    <style name="FormTextInputLayout2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:gravity">center_vertical</item>
+        <item name="errorEnabled">true</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textColorHint">@color/secondary</item>
+        <item name="boxStrokeColor">#f4e3d7</item>
+        <item name="boxStrokeWidth">3dp</item>
+        <item name="errorTextColor">@color/error</item>
+        <item name="hintTextColor">@color/primary</item>
+    </style>
+
+    <style name="datePickerTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">#F6B74A</item>
+        <item name="android:buttonBarButtonStyle">@style/DatePickerDialogButtons</item> <!-- Agrega esta línea -->
+    </style>
+
+    <style name="TextViewRadioButtonStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/telescope</item>
+    </style>
+
+    <style name="DatePickerDialogButtons">
+        <item name="android:textColor">#FFFFFF</item> <!-- Cambia el color del texto de los botones -->
+    </style>
+
+
+
+    <style name="FormEditText3" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/secondary_light</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="singleLine">true</item>
+        <item name="maxLines">1</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:textColorHint">@color/secondary_light</item>
+        <item name="android:fontFamily">@font/telescope</item>
+    </style>
+
+    <style name="FormTextInputLayout3" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="errorEnabled">true</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textColorHint">@color/secondary</item>
+        <item name="boxStrokeColor">#f4e3d7</item>
+        <item name="boxStrokeWidth">3dp</item>
+        <item name="errorTextColor">@color/error</item>
+        <item name="hintTextColor">@color/primary</item>
+    </style>
+
+    <style name="CardView_itemnews" parent="CardView">
+        <item name="cornerRadius">8dp</item>
+        <item name="strokeWidth">4dp</item>
+        <item name="strokeColor">#b87e6f</item>
+    </style>
+
+
+
+</resources>
